@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>502 Error | valle.us</title>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1 id="company-name">valleUS</h1>
+        <section id="errorbox">
+            <div>
+                <h1 class="error-code">502</h1>
+                <h3>Bad Gateway</h3>
+                <p>Something might be broken. Refresh the page and try again</p>
+                <p>If the issues persists please contact support</p>
+                <a href="https://valle.us" class="button">Go home</a>
+                <p id="itInfo">Admin click here</p>
+                <div id="info">
+                    <p class="info-text">Please ensure reverse proxy is setup correctly. Check the logs...</p>
+                </div>
+            </div>
+        </section>
+        <script>
+            var e = document.getElementById("itInfo")
+            var x = document.getElementById("info")
+            e.addEventListener("click", function() {
+                if (x.style.display === "none") {
+                    x.style.display = "inline-block";
+                } else {
+                    x.style.display = "none"
+                }
+            })
+        </script>
+    </body>
+</html>

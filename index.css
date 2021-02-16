@@ -44,3 +44,20 @@ h3 {
     border-radius: 5px;
     display: inline-block;
 }
+
+#itInfo {
+    font-size: 10px;
+}
+
+#info {
+    display: none;
+    background-color: #9e9e9e;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.info-text {
+    color:#fff;
+    font-size: 10px;
+}
