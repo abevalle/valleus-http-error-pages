@@ -8,6 +8,9 @@ Just a simple error pages
 |403|✅|
 |500|✅|
 |502|✅|
-|503|❌|
+|503|✅|
 |504|✅|
 |444|✅|
+
+just clone this repo and move the error pages to /usr/share/nginx/html
+include the globalerror file in your nginx configs.
